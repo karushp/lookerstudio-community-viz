@@ -1,10 +1,22 @@
 {
   "name": "YoY Scorecard",
   "organization": "Karush Pradhan",
-  "description": "Custom YoY KPI scorecard for Looker Studio",
+  "description": "Year over Year KPI scorecard for Looker Studio",
   "logoUrl": "",
   "packageUrl": "",
   "supportUrl": "",
   "privacyPolicyUrl": "",
-  "termsOfServiceUrl": ""
+  "termsOfServiceUrl": "",
+  "components": [
+    {
+      "id": "yoy_scorecard",
+      "name": "YoY Scorecard",
+      "description": "Displays YoY change for a metric",
+      "resource": {
+        "js": "index.js",
+        "html": "index.html"
+      },
+      "type": "VISUALIZATION"
+    }
+  ]
 }
