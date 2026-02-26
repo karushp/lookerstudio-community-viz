@@ -1,0 +1,17 @@
+{
+  "data": {
+    "dimensions": [],
+    "metrics": [
+      {
+        "id": "metric",
+        "name": "Metric",
+        "description": "Main metric",
+        "type": "NUMBER",
+        "isOptional": false
+      }
+    ]
+  },
+  "style": {
+    "sections": []
+  }
+}
